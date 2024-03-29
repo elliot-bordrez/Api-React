@@ -1,0 +1,53 @@
+/* PlayerList.css */
+
+body {
+    font-family: 'Times New Roman', serif;
+  }
+  
+  .navbar {
+    background-color: #28242c;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline;
+  }
+  
+  .navbar ul li a {
+    color: #fff;
+    font-family: 'Times New Roman', serif;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: #28242c;
+  }
+  
+  .player-list-container {
+    margin-top: 20px;
+    text-align: center; /* Centrer le contenu du conteneur */
+  }
+  
+  .player-table {
+    border-collapse: collapse; /* Fusionner les bordures des cellules */
+    margin: auto; /* Centrer le tableau horizontalement */
+  }
+  
+  .player-table th,
+  .player-table td {
+    border: 1px solid #ddd; /* Ajouter des bordures aux cellules */
+    padding: 8px; /* Ajouter un espacement intérieur aux cellules */
+  }
+  
+  .player-table th {
+    background-color: #f2f2f2; /* Couleur de fond pour les en-têtes de colonne */
+  }
+  
